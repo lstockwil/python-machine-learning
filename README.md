@@ -5,4 +5,4 @@
 - ### Supervised
   - Gaussian Naive Bayesian Classifier
 - ### Unsupervised
-  - KMeans Clustering
+  - **KMeans Clustering (in development)
