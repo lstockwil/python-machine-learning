@@ -37,5 +37,6 @@ ax[1, 1].set_title('Sepal Length')
 
 plt.suptitle("Flower Features vs Class") # Set overall title of plots
 
-plt.tight_layout() # Adjust layout
+# Adjust layout
+plt.tight_layout()
 plt.show()
