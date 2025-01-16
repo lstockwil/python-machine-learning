@@ -73,7 +73,9 @@ axes[1].set_title("Confusion Matrix - GaussianNB Standardized")
 plt.tight_layout()
 plt.show()
 
+print("-"*10)
 print(f"Difference in GaussianNB accuracy between raw features and standardized features\n(raw - standardized): {accuracy_gaussian_nb_raw - accuracy_gaussian_nb_standardized}")
+print("-"*10)
 ## Conclusion
 # Difference in accuracy is negligible (both models produced exactly the same confusion matrix)
 # Possibilities: 
